@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.fields {
+  margin: 3rem 5rem;
+  padding: 5rem;
+  border-radius: 2rem;
+  background-color: #ecd993;
+  font-size: 3rem;
+  box-shadow: 5px 5px 5px #888888;
+}
+
+.btn {
+  margin: 2rem;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn button {
+  padding: 2rem;
+  border-radius: 49%;
+  font-size: 1rem;
+  color: #3d3838;
+  font-weight: bold;
+  border-style: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #75c775;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+@media screen and (max-width: 400px) {
+  .fields {
+    font-size: 1.5rem;
+    padding: 2rem;
+  }
+}
